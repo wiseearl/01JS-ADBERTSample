@@ -18,6 +18,7 @@ import com.google.android.gms.ads.mediation.customevent.CustomEventInterstitialL
 
 public class AdbertMediation implements CustomEventBanner, CustomEventInterstitial {
 
+
 	@Override
 	public void onDestroy() {
 		if (ad != null) {
